@@ -1,0 +1,1 @@
+import{_ as a,c as e,o,ag as s}from"./chunks/framework.BgId8OS5.js";const p=JSON.parse(`{"title":"Systèmes d'Exploitation","description":"","frontmatter":{},"headers":[],"relativePath":"OS/os.md","filePath":"OS/os.md"}`),i={name:"OS/os.md"};function l(n,t,r,d,_,m){return o(),e("div",null,t[0]||(t[0]=[s("",2)]))}const S=a(i,[["render",l]]);export{p as __pageData,S as default};

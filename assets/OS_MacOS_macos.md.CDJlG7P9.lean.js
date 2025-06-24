@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t}from"./chunks/framework.BgId8OS5.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"OS/MacOS/macos.md","filePath":"OS/MacOS/macos.md"}'),c={name:"OS/MacOS/macos.md"};function o(s,r,n,m,p,_){return t(),e("div")}const f=a(c,[["render",o]]);export{i as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.BgId8OS5.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"OS/Windows/windows.md","filePath":"OS/Windows/windows.md"}'),s={name:"OS/Windows/windows.md"};function n(a,r,d,i,c,p){return o(),t("div")}const m=e(s,[["render",n]]);export{_ as __pageData,m as default};
