@@ -1,4 +1,8 @@
 import { defineConfig } from 'vitepress'
+import dotenv from 'dotenv'
+dotenv.config()
+
+const isLocal = process.env.VITE_IS_LOCAL === 'true'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -37,13 +41,16 @@ export default defineConfig({
           { text: 'ITIL', link: '/outils/itil/itil' },
         ]
       },
-      {
+
+      // Visible seulement en local
+      ...(isLocal ?
+      [{
         text: 'Notes',
         items: [
           { text: 'Markdown Examples', link: '/notes/markdown-examples' },
           { text: 'Runtime API Examples', link: '/notes/api-examples' }
         ]
-      }
+      }] : [])
     ],
     //socialLinks: [
       //{ icon: 'github', link: 'https://github.com/ADereusme' }

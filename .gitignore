@@ -2,4 +2,5 @@ docs/.vitepress/dist/
 docs/.vitepress/cache/
 node_modules/
 
-docs/notes/
+# Env local (config locale non partagée)
+.env.local
