@@ -1,6 +1,10 @@
 import { defineConfig } from 'vitepress'
 import dotenv from 'dotenv'
-dotenv.config()
+import path from 'path'
+
+// On charge le bon fichier selon NODE_ENV (ou autre variable)
+const envFile = process.env.NODE_ENV === 'production' ? '.env.production' : '.env.local'
+dotenv.config({ path: path.resolve(process.cwd(), envFile) })
 
 const isLocal = process.env.VITE_IS_LOCAL === 'true'
 
