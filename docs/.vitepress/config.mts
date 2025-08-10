@@ -17,7 +17,7 @@ export default defineConfig({
       { text: 'Infra', link: '/infrastructure/infrastructure' },
       { text: 'Outils', link: '/outils/outils' },
       { text: 'Support', link: '/support/support' },
-      { text: 'Examples', link: '/examples/markdown-examples' }
+      { text: 'Notes', link: '/notes/markdown-examples' }
     ],
 
     sidebar: [
@@ -38,10 +38,10 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Examples',
+        text: 'Notes',
         items: [
-          { text: 'Markdown Examples', link: '/examples/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/examples/api-examples' }
+          { text: 'Markdown Examples', link: '/notes/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/notes/api-examples' }
         ]
       }
     ],
