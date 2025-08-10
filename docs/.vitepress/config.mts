@@ -25,6 +25,7 @@ export default defineConfig({
       { text: 'Infra', link: '/infrastructure/infrastructure' },
       { text: 'Outils', link: '/outils/outils' },
       { text: 'Support', link: '/support/support' },
+      // Visible seulement en local
       ...(isLocal ? [{ text: 'Notes', link: '/notes/markdown-examples' }] : [])
     ],
 
