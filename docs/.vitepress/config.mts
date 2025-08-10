@@ -13,7 +13,7 @@ export default defineConfig({
     
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Systèmes', link: '/os/os' },
+      { text: 'Systèmes', link: '/systemes/systemes' },
       { text: 'Infra', link: '/infrastructure/infrastructure' },
       { text: 'Outils', link: '/outils/outils' },
       { text: 'Support', link: '/support/support' },
@@ -22,11 +22,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'OS',
+        text: 'Systèmes',
         items: [
-          { text: 'Home', link: '/os/os' },
-          { text: 'Linux', link: '/os/linux/linux' },
-          { text: 'Windows', link: '/os/windows/windows' }
+          { text: 'Home', link: '/systemes/systemes' },
+          { text: 'Linux', link: '/systemes/linux/linux' },
+          { text: 'Windows', link: '/systemes/windows/windows' }
         ]
       },
       {
