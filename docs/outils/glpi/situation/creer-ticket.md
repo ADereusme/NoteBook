@@ -1,4 +1,4 @@
-# 📝 Créer un ticket dans GLPI
+# Créer un ticket dans GLPI
 
 Créer un ticket dans GLPI permet de signaler un incident ou une demande d’assistance.
 
@@ -61,4 +61,4 @@ Les différents niveau d'urgence :
 ---
 <br>
 
-📎 [Retour à GLPI](../glpi.md)
+📎 [Retour à GLPI](/outils/glpi/glpi)

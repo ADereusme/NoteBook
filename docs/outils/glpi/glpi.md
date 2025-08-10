@@ -23,28 +23,28 @@ GLPI est utilisé pour :
 
 ## ⚙️ Installation
 
-- 📓 [Installation sur Debian/Ubuntu](./installation/debian.md)
-- 📓 [Installation sous Windows (WAMP/XAMP)](./installation/windows.md)
-- 📓 [Installation avec Docker](./installation/docker.md)
-- 📓 [Installation de plugins GLPI](./installation/plugins.md)
+- 📓 [Installation sur Debian/Ubuntu](/outils/glpi/installation/debian)
+- 📓 [Installation sous Windows (WAMP/XAMP)](/outils/glpi/installation/windows)
+- 📓 [Installation avec Docker](/outils/glpi/installation/docker)
+- 📓 [Installation de plugins GLPI](/outils/glpi/installation/plugins)
 
 
 ## 🧭 Fonctionnement
 
-- [Fonctionnement de GLPI](./fonctionnement-glpi.md)
+- [Fonctionnement de GLPI](/outils/glpi/fonctionnement-glpi)
 
 
 ## 💡 Cas pratiques
 
-- 📓 [Créer un ticket](./situation/creer-ticket.md)
-- 📓 [Suivre ou gérer un ticket](./situation/suivre-ticket.md)
-- 📓 [Mettre à jour la base de données](./situation/maj-base.md)
-- 📓 [Créer un gabarit (modèle)](./situation/gabarit-reponse.md)
+- 📓 [Créer un ticket](/outils/glpi/situation/creer-ticket)
+- 📓 [Suivre ou gérer un ticket](/outils/glpi/situation/suivre-ticket)
+- 📓 [Mettre à jour la base de données](/outils/glpi/situation/maj-base)
+- 📓 [Créer un gabarit (modèle)](/outils/glpi/situation/gabarit-reponse)
 
 
 ## 📚 Ressources utiles
 
-- 📓 [Référentiel du ticketing informatique => ITIL](../itil/itil.md)
+- 📓 [Référentiel du ticketing informatique => ITIL](/outils/itil/itil)
 - 🌐 [Autre solution de ticketing => OsTicket](https://osticket.com/) (approche exclusivement orientée client)
 - 🌐 [Documentation GLPI (utilisateurs)](https://glpi-user-documentation.readthedocs.io/fr/latest/index.html)
 - 🌐 [Dépôt GitHub](https://github.com/glpi-project/glpi)

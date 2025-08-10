@@ -7,7 +7,6 @@ const envFile = process.env.NODE_ENV === 'production' ? '.env.production' : '.en
 dotenv.config({ path: path.resolve(process.cwd(), envFile) })
 
 const isLocal = process.env.VITE_IS_LOCAL === 'true'
-console.log('isLocal:', isLocal)
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({

@@ -61,4 +61,4 @@ GLPI peut automatiser certaines tâches grâce à :
 ---
 <br>
 
-📎 [Retour à GLPI](./glpi.md)
+📎 [Retour à GLPI](/outils/glpi/glpi)

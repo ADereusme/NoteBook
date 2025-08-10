@@ -9,19 +9,6 @@
 <mark class="orange">Avertissement</mark>
 */
 
-/* Autres possibilités
-> [!NOTE] // note
-> 
-> [!IMPORTANT] // important
-> 
-> [!WARNING] // avertissement
-> 
-> [!TIP] // astuce
-> 
-> [!CAUTION] // attention
-> 
-*/
-
 /* Surlignage par défaut pour <mark> */
 mark {
   background-color: lightblue;

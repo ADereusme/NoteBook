@@ -224,3 +224,8 @@ Le chemin sera différent si le chemin par défaut est modifié lors de l'instal
 ## 📚 Ressources utiles
 
 - 🌐 [Installer GLPI sous WAMP Server](https://neptunet.fr/wamp-glpi/#A)
+
+---
+<br>
+
+📎 [Retour à GLPI](/outils/glpi/glpi)

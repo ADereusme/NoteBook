@@ -58,6 +58,19 @@ This is a details block.
 :::
 ```
 
+<!-- Autres possibilités
+> [!NOTE] // note
+> 
+> [!IMPORTANT] // important
+> 
+> [!WARNING] // avertissement
+> 
+> [!TIP] // astuce
+> 
+> [!CAUTION] // attention
+> 
+-->
+
 **Output**
 
 ::: info
