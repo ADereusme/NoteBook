@@ -34,7 +34,14 @@ export default defineConfig({
         items: [
           { text: 'Home', link: '/systemes/systemes' },
           { text: 'Linux', link: '/systemes/linux/linux' },
-          { text: 'Windows', link: '/systemes/windows/windows' }
+          { text: 'Windows', link: '/systemes/windows/windows' },
+          { text: 'MacOS', link: '/systemes/macos/macos' }
+        ]
+      },
+      {
+        text: 'Infrastructure',
+        items: [
+          { text: 'Home', link: '/infrastructure/infrastructure' },
         ]
       },
       {
@@ -43,6 +50,12 @@ export default defineConfig({
           { text: 'Home', link: '/outils/outils' },
           { text: 'GLPI', link: '/outils/glpi/glpi' },
           { text: 'ITIL', link: '/outils/itil/itil' },
+        ]
+      },
+      {
+        text: 'Support',
+        items: [
+          { text: 'Home', link: '/support/support' },
         ]
       },
 
