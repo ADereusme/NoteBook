@@ -1,4 +1,4 @@
 # Outils & Logiciels
 
-- 📁 [GLPI](/glpi/glpi)
+- 📁 [GLPI](/outils/glpi/glpi)
 - 📁 [ITIL](./itil/itil.md)
