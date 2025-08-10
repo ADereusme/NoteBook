@@ -11,51 +11,61 @@ sidebar: false
 
   const coreMembers = [
     {
-        avatar: 'https://www.github.com/ADereusme.png',
+        avatar: 'https://www.github.com/ADereusme.png', /* le lien vers mon Github, icône*/
         name: 'Alexandre Dereusme',
-        title: "",
+        title: "NoteBook",
     }
   ];
 </script>
 
 <div class="home-page">
-<div class="home-background">
-    <VPTeamPage>
-      <VPTeamPageTitle>
-        <template #title>WIKIT</template>
-        <template #lead></template>
-      </VPTeamPageTitle>
-      <VPTeamMembers
-      size="medium"
-      :members="coreMembers"
-      />
-    </VPTeamPage>
-</div>
+  <div class="home-background">
+    <div class="wikit-card">
+      <div class="wikit-header">
+        <h1 class="wikit-title">WIKIT</h1> <!-- le titre -->
+        <p class="wikit-subtitle"></p> <!-- le sous-titre -->
+      </div>
+      <div class="member-card">
+        <div class="avatar-container">
+          <img 
+            :src="coreMembers[0].avatar" 
+            :alt="coreMembers[0].name"
+            class="member-avatar"
+          />
+        </div>
+        <h3 class="member-name">{{ coreMembers[0].name }}</h3>
+      </div>
+    </div>
+  </div>
 </div>
 
-<style >
-  .home-page h1 {
-    color: red;
-  }
-</style>
-
+<!-- ANIMATIONS -->
 <style scoped>
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+/* Animation sur le carré du profil*/
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
 }
 
+/* Page accueil */
+.home-page {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Fond d'écran */
 .home-background {
   position: relative;
   overflow: hidden;
@@ -63,81 +73,242 @@ sidebar: false
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  color: white;
   animation: fadeInUp 1s ease-out;
-  /* animation: fadeIn 1s ease-in; */
 }
 
-/* Calque de fond transparent */
+/* Fond d'écran avec effet blur sur les bords */
 .home-background::before {
   content: '';
   position: absolute;
-  inset: 0;
+  inset: -20px;
   background-image: url('/proc.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.9; /* <<< joue ici sur l'alpha entre 0 (invisible) et 1 (opaque) */
+  filter: blur(0.5px); /* le flou du fond d'écran */ 
   z-index: 0;
 }
 
-.dark .home-background::before {
+/* Overlay sombre sur le fond d'écran */
+.home-background::after {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('/proc.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.5; /* <<< joue ici sur l'alpha entre 0 (invisible) et 1 (opaque) */
-  z-index: 0;
+  background: rgba(134, 134, 134, 0.4);
+  z-index: 1;
 }
 
-/* Optionnel : ajouter un fond semi-transparent au contenu */
-.VPTeamPage {
-  background-color: rgba(41, 39, 39, 0.8);
+/* Carré de présentation : contient le titre */
+.wikit-card {
+  position: relative;
+  z-index: 2;
+  background: rgba(20, 20, 20, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 20px;
-  padding: 1rem;
-  margin-top: 2rem;
-  max-width: 450px;
-  width: 90%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  animation: fadeInUp 0.5s ease-out;
-  animation-delay: 0.2s;
-  animation-fill-mode: both;
-  color: black;
+  padding: 4rem 2.5rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.6), /* ombre */
+    0 0 0 1px rgba(255, 0, 0, 0.05), /* contour */
+    inset 0 1px 0 rgba(255, 255, 255, 0.1); /* trait lumineux interne en haut */
+  backdrop-filter: blur(20px);
+  animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
-.dark .VPTeamPage {
-  background-color: rgba(0, 0, 0, 0.8);
-  border-radius: 20px;
-  padding: 1rem;
-  margin-top: 2rem;
-  max-width: 450px;
-  width: 90%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  animation: fadeInUp 0.5s ease-out;
-  animation-delay: 0.2s;
-  animation-fill-mode: both;
-  color: white;
+/* Conteneur pour le titre et le sous-titre */
+.wikit-header {
+  margin-bottom: 3rem;
 }
-</style>
 
-<!--
+/* Titre */
+.wikit-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ff4444;
+  margin: 0 0 0.5rem 0;
+  text-shadow: 0 0 20px rgba(255, 68, 68, 0.4);
+  letter-spacing: 2px;
+  /* animation: float 3s ease-in-out infinite; */
+}
 
-  /* Appliquer un fond d'écran sur la page */
-.hero-wrapper {
-  background-image: url('/proc.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+/* Sous-titre */
+.wikit-subtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  font-weight: 300;
+}
+
+/* Carré pour le Profil */
+.member-card {
+  background: rgba(40, 40, 40, 0.97);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Carré pour le Profil : quand on passe la souris dessus */
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  border-color: rgba(255, 68, 68, 0.3);
+}
+
+/* Conteneur du Logo */
+.avatar-container {
+  margin-bottom: 1.5rem;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  color: white; /* Améliore la visibilité du texte sur fond */
 }
 
--->
+/* Logo */
+.member-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo : quand on passe la souris dessus */
+.member-avatar:hover {
+  transform: scale(1.1);
+  border-color: #ff4444;
+  box-shadow: 
+    0 8px 20px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(255, 68, 68, 0.4);
+}
+
+/* Nom et Prénom */
+.member-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ff4444;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(255, 68, 68, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-background {
+    padding: 1.5rem;
+  }
+
+  .wikit-card {
+    padding: 2.5rem 2rem;
+    max-width: 100%;
+    border-radius: 16px;
+  }
+
+  .wikit-title {
+    font-size: 2.5rem;
+  }
+
+  .member-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .member-avatar {
+    width: 70px;
+    height: 70px;
+  }
+
+  .member-name {
+    font-size: 1.1rem;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .home-background {
+    padding: 1rem;
+  }
+
+  .wikit-card {
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+  }
+
+  .wikit-title {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+  }
+
+  .wikit-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .wikit-header {
+    margin-bottom: 2rem;
+  }
+
+  .member-card {
+    padding: 1.25rem 1rem;
+    border-radius: 12px;
+  }
+
+  .member-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  .member-name {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 360px) {
+  .wikit-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .wikit-title {
+    font-size: 2rem;
+  }
+
+  .member-avatar {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+/* Mode sombre */
+.dark .home-background::after {
+  background: rgba(0, 0, 0, 0.6);
+}
+.dark .wikit-card {
+  background: rgba(10, 10, 10, 0.98);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.dark .member-card {
+  background: rgba(25, 25, 25, 0.9);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Effet de particules subtil */
+.wikit-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 1px;
+  background: linear-gradient(45deg, 
+    transparent,
+    rgba(255, 68, 68, 0.1),
+    transparent,
+    rgba(255, 68, 68, 0.1),
+    transparent
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: 0.5;
+}
+</style>

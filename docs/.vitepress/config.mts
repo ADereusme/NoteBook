@@ -13,7 +13,10 @@ export default defineConfig({
     
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'OS', link: '/OS/os' },
+      { text: 'Systèmes', link: '/OS/os' },
+      { text: 'Infra', link: '/Infrastructure/infrastructure' },
+      { text: 'Outils', link: '/Outils/outils' },
+      { text: 'Support', link: '/Support/support' },
       { text: 'Examples', link: '/Examples/markdown-examples' }
     ],
 
@@ -27,6 +30,14 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Outils & Logiciels',
+        items: [
+          { text: 'Home', link: '/outils/outils' },
+          { text: 'GLPI', link: '/outils/glpi/glpi' },
+          { text: 'ITIL', link: '/outils/itil/itil' },
+        ]
+      },
+      {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/Examples/markdown-examples' },
@@ -34,9 +45,8 @@ export default defineConfig({
         ]
       }
     ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/ADereusme' }
-    ],
+    //socialLinks: [
+      //{ icon: 'github', link: 'https://github.com/ADereusme' }
+    //],
   },
 })

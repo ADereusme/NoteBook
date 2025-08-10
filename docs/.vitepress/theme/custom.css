@@ -1,0 +1,109 @@
+/* ==== Styles de surlignage personnalisés ==== */
+
+/* Exemples d'utilisation
+<mark class="yellow">Important</mark>  
+<mark class="blue">Info</mark>  
+<mark class="green">Validé</mark>  
+<mark class="red">Attention</mark>  
+<mark class="purple">Astuce</mark>  
+<mark class="orange">Avertissement</mark>
+*/
+
+/* Autres possibilités
+> [!NOTE] // note
+> 
+> [!IMPORTANT] // important
+> 
+> [!WARNING] // avertissement
+> 
+> [!TIP] // astuce
+> 
+> [!CAUTION] // attention
+> 
+*/
+
+/* Surlignage par défaut pour <mark> */
+mark {
+  background-color: lightblue;
+  color: black;
+  padding: 0 0.2em;
+  border-radius: 3px;
+}
+.dark mark {
+  background-color: #42a5f5;
+  color: black;
+  padding: 0 0.2em;
+  border-radius: 3px;
+}
+
+/* Variantes de couleur */
+
+/* Jaune */
+mark.yellow {
+  background-color: #fff59d; /* autre : yellow */
+  color: black;
+}
+.dark mark.yellow {
+  background-color: #fbc02d;
+  color: black;
+}
+
+/* Bleu */
+mark.blue {
+  background-color: #90caf9; /* autre : lightblue */
+  color: black;
+}
+.dark mark.blue {
+  background-color: #42a5f5;
+  color: black;
+}
+
+/* Vert */
+mark.green {
+  background-color: #a5d6a7; /* autre : lightgreen */
+  color: black;
+}
+.dark mark.green {
+  background-color: #66bb6a;
+  color: black;
+}
+
+/* Rouge */
+mark.red {
+  background-color: #ef9a9a; /* autre : #ff9999 */
+  color: black;
+}
+.dark mark.red {
+  background-color: #e57373;
+  color: black;
+}
+
+/* Violet */
+mark.purple {
+  background-color: #ce93d8; /* autre : #d8b4fe */
+  color: black;
+}
+.dark mark.purple {
+  background-color: #ab47bc;
+  color: black;
+}
+
+/* Orange */
+mark.orange {
+  background-color: #ffcc80; /* autre : orange */
+  color: black;
+}
+.dark mark.orange {
+  background-color: #fb8c00;
+  color: black;
+}
+
+/* Grey */
+mark.grey {
+  background-color: grey; /* autre : orange */
+  color: black;
+}
+.dark mark.grey {
+  background-color: grey;
+  color: black;
+}

@@ -10,19 +10,19 @@ Autre façon de mettre une image avec une fonction bouton
 
 <div style="display: flex; gap: 80px; justify-content: center; text-align: center;">
     <figure>
-        <a href="/OS/Linux/linux">
+        <a href="/os/linux/linux">
             <img src=/Linux.png width="140" alt="logo linux">
         </a>
         <figcaption style="margin-top: 10px; font-size: 25px;">Linux</figcaption>
     </figure>
     <figure>
-        <a href="/OS/Windows/windows">
+        <a href="/os/windows/windows">
             <img src=/Windows.png width="190" alt="logo windows">
         </a>
         <figcaption style="margin-top: 0px; font-size: 25px;">Windows</figcaption>
     </figure>
     <figure>
-        <a href="/OS/MacOS/macos">
+        <a href="/os/macos/macos">
             <img src=/MacOS.png width="160" alt="logo macos">
         </a>
         <figcaption style="margin-top: 20px; font-size: 25px;">MacOS</figcaption>
@@ -32,6 +32,6 @@ Autre façon de mettre une image avec une fonction bouton
 <!-- Ajout d'un ou plusieurs espace vide -->
 <br>
 
-- 📁 [Linux](/OS/Linux/linux.md)
-- 📁 [Windows](/OS/Windows/windows.md)
-- 📁 [MacOS](/OS/MacOS/macos.md)
+- 📁 [Linux](./linux/linux.md)
+- 📁 [Windows](./windows/windows.md)
+- 📁 [MacOS](./macos/macos.md)
