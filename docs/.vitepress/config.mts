@@ -13,20 +13,20 @@ export default defineConfig({
     
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Systèmes', link: '/OS/os' },
-      { text: 'Infra', link: '/Infrastructure/infrastructure' },
-      { text: 'Outils', link: '/Outils/outils' },
-      { text: 'Support', link: '/Support/support' },
-      { text: 'Examples', link: '/Examples/markdown-examples' }
+      { text: 'Systèmes', link: '/os/os' },
+      { text: 'Infra', link: '/infrastructure/infrastructure' },
+      { text: 'Outils', link: '/outils/outils' },
+      { text: 'Support', link: '/support/support' },
+      { text: 'Examples', link: '/examples/markdown-examples' }
     ],
 
     sidebar: [
       {
         text: 'OS',
         items: [
-          { text: 'Home', link: '/OS/os' },
-          { text: 'Linux', link: '/OS/Linux/linux' },
-          { text: 'Windows', link: '/OS/Windows/windows' }
+          { text: 'Home', link: '/os/os' },
+          { text: 'Linux', link: '/os/linux/linux' },
+          { text: 'Windows', link: '/os/windows/windows' }
         ]
       },
       {
@@ -40,8 +40,8 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/Examples/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/Examples/api-examples' }
+          { text: 'Markdown Examples', link: '/examples/markdown-examples' },
+          { text: 'Runtime API Examples', link: '/examples/api-examples' }
         ]
       }
     ],
