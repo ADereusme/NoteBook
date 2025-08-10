@@ -8,6 +8,7 @@ Autre façon de mettre une image avec une fonction bouton
 <!-- Ajout d'un ou plusieurs espace vide -->
 <br>
 
+<!--
 <div style="display: flex; gap: 80px; justify-content: center; text-align: center;">
     <figure>
         <a href="/os/linux/linux">
@@ -28,10 +29,13 @@ Autre façon de mettre une image avec une fonction bouton
         <figcaption style="margin-top: 20px; font-size: 25px;">MacOS</figcaption>
     </figure>
 </div>
+-->
 
 <!-- Ajout d'un ou plusieurs espace vide -->
 <br>
 
+<!--
 - 📁 [Linux](/os/linux/linux.md)
 - 📁 [Windows](/os/windows/windows.md)
 - 📁 [MacOS](/os/macos/macos.md)
+-->
