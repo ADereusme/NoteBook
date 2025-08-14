@@ -24,7 +24,9 @@
 
 1. Pour fonctionner Wamp Server nécessite des prérequis applicatifs :
     - Télécharger le fichier 🌐 [VisualCppRedist_AIO_x86_x64.exe](https://github.com/abbodi1406/vcredist/releases)
-    - Lancer l'installation, cliquer sur <mark>Next</mark>, patienter, puis sur <mark>Finish</mark>
+    - Lancer l'installation, 
+    - Cliquer sur <mark>Next</mark>
+    - Puis cliquer sur <mark>Finish</mark>
 
 2. Ensuite, nous pouvons installer Wamp Server :
     - Télécharger 🌐 [WampServer](https://www.wampserver.com/)

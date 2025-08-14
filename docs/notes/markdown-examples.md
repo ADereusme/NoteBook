@@ -1,6 +1,10 @@
-# Markdown Extension Examples
+# Markdown Examples
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+## Icones
+
+- 📓 : spécifier que c'est une page
+- 📁 : spécifier que c'est un dossier
+- → : à la place de =>
 
 ## Syntax Highlighting
 
