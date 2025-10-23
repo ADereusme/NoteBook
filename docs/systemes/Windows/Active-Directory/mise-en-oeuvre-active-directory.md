@@ -191,7 +191,7 @@ Création de groupes d'employés :
 
 ::: info ETAPE 13
 Paramétrage des droits et permissions par groupe : AGDLP
-- Voir infos AGDLP, section cas pratique : [AGDLP](/systemes/Windows/Active-Directory/AGDLP)
+- Voir infos AGDLP, section cas pratique : [AGDLP](/systemes/windows/Active-Directory/AGDLP)
 - Création de <mark>Groupes de Domaine Local</mark>
 - Ajout des <mark>Groupes Globaux</mark> dans les <mark>Groupes de Domaine Local</mark>
 

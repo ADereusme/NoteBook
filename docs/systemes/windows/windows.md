@@ -2,18 +2,18 @@
 
 ## Commandes
 
-- 📓 [Commandes CMD](/systemes/Windows/Commandes/commandes-CMD)
-- 📓 [Commandes DHCP](/systemes/Windows/Commandes/commandes-DHCP)
-- 📓 [Commandes DNS](/systemes/Windows/Commandes/commandes-DNS)
+- 📓 [Commandes CMD](/systemes/windows/Commandes/commandes-CMD)
+- 📓 [Commandes DHCP](/systemes/windows/Commandes/commandes-DHCP)
+- 📓 [Commandes DNS](/systemes/windows/Commandes/commandes-DNS)
 
 ## Active Directory
 
-- 📓 [La mise en oeuvre d'une infrastructure ActiveDirectory](/systemes/Windows/Active-Directory/mise-en-oeuvre-active-directory)
-- 📓 [DNS](/systemes/Windows/Active-Directory/DNS)
-- 📓 [LDAP](/systemes/Windows/Active-Directory/LDAP)
-- 📓 [DHCP](/systemes/Windows/Active-Directory/DHCP)
-- 📓 [AGDLP](/systemes/Windows/Active-Directory/AGDLP)
+- 📓 [La mise en oeuvre d'une infrastructure ActiveDirectory](/systemes/windows/Active-Directory/mise-en-oeuvre-active-directory)
+- 📓 [DNS](/systemes/windows/Active-Directory/DNS)
+- 📓 [LDAP](/systemes/windows/Active-Directory/LDAP)
+- 📓 [DHCP](/systemes/windows/Active-Directory/DHCP)
+- 📓 [AGDLP](/systemes/windows/Active-Directory/AGDLP)
 
 ## Astuces
 
-- 📓 [Astuces sur Windows](/systemes/Windows/Astuces/astuces-windows)
+- 📓 [Astuces sur Windows](/systemes/windows/Astuces/astuces-windows)

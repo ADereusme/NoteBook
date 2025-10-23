@@ -2,32 +2,32 @@
 
 ## Commandes
 
-- 📓 [Commandes - terminal](/systemes/Linux/Commandes/commandes-terminal)
-- 📓 [Commandes - fichiers et dossiers](/systemes/Linux/Commandes/commandes-fichiers-dossiers)
-- 📓 [Commandes - BASH](/systemes/Linux/Commandes/commandes-bash-script)
+- 📓 [Commandes - terminal](/systemes/linux/Commandes/commandes-terminal)
+- 📓 [Commandes - fichiers et dossiers](/systemes/linux/Commandes/commandes-fichiers-dossiers)
+- 📓 [Commandes - BASH](/systemes/linux/Commandes/commandes-bash-script)
 
 ## Actions
 
 ### Utilisateur
 
-- 📓 [Ajouter un utilisateur](/systemes/Linux/Actions/ajouter-utilisateur)
-- 📓 [Supprimer un utilisateur](/systemes/Linux/Actions/supprimer-utilisateur) 
+- 📓 [Ajouter un utilisateur](/systemes/linux/Actions/ajouter-utilisateur)
+- 📓 [Supprimer un utilisateur](/systemes/linux/Actions/supprimer-utilisateur) 
 
 ### Configurations de base
 
-- 📓 [Configurer le nom de la machine (hostname)](/systemes/Linux/Actions/changer-nom-machine) 
-- 📓 [Configurer SSH](/systemes/Linux/Actions/installer-utiliser-ssh)
-- 📓 [Configurer le réseau](/systemes/Linux/Actions/configurer-reseau)
+- 📓 [Configurer le nom de la machine (hostname)](/systemes/linux/Actions/changer-nom-machine) 
+- 📓 [Configurer SSH](/systemes/linux/Actions/installer-utiliser-ssh)
+- 📓 [Configurer le réseau](/systemes/linux/Actions/configurer-reseau)
 
 ### Installation
 
-- 📓 [Installer sudo](/systemes/Linux/Actions/installer-sudo)
-- 📓 [Installer VMWare Tools](/systemes/Linux/Actions/installer-vmware-tools)
+- 📓 [Installer sudo](/systemes/linux/Actions/installer-sudo)
+- 📓 [Installer VMWare Tools](/systemes/linux/Actions/installer-vmware-tools)
 
 ### Automatisation
 
-- 📓 [Automatiser avec Crontab](/systemes/Linux/Actions/crontab)
+- 📓 [Automatiser avec Crontab](/systemes/linux/Actions/crontab)
 
 ## Fonctionnements
 
-- 📓 [Les droits sur Linux](/systemes/Linux/Fonctionnement/les-droits-sur-linux)
+- 📓 [Les droits sur Linux](/systemes/linux/Fonctionnement/les-droits-sur-linux)

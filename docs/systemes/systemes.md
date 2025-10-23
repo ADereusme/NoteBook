@@ -2,9 +2,9 @@
 
 <br>
 
-- 📁 [Linux](/systemes/Linux/linux)
-- 📁 [Windows](/systemes/Windows/windows)
-- 📁 [MacOS](/systemes/MacOS/macos)
+- 📁 [Linux](/systemes/linux/linux)
+- 📁 [Windows](/systemes/windows/windows)
+- 📁 [MacOS](/systemes/macos/macos)
 - 📁 [Packet Tracer](/systemes/Packet-Tracer/packet-tracer)
 
 

@@ -34,9 +34,9 @@ export default defineConfig({
         text: 'Systèmes',
         items: [
           { text: 'Home', link: '/systemes/systemes' },
-          { text: 'Linux', link: '/systemes/Linux/linux' },
-          { text: 'Windows', link: '/systemes/Windows/windows' },
-          { text: 'MacOS', link: '/systemes/MacOS/macos' },
+          { text: 'Linux', link: '/systemes/linux/linux' },
+          { text: 'Windows', link: '/systemes/windows/windows' },
+          { text: 'MacOS', link: '/systemes/macos/macos' },
           { text: 'Packet Tracer', link: '/systemes/Packet-Tracer/packet-tracer' },
         ]
       },
