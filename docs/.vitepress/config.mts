@@ -61,7 +61,7 @@ export default defineConfig({
         ]
       },
 
-      // Visible seulement en local
+      // Visible seulement en local 
       ...(isLocal ?
       [{
         text: 'Notes',
