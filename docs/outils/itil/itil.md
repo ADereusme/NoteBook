@@ -1,4 +1,4 @@
-# [ITIL](https://fr.wikipedia.org/wiki/ITIL) – Information Technology Infrastructure Library
+# ITIL – Information Technology Infrastructure Library
 
 ## 🔍 Qu'est-ce que ITIL ?
 

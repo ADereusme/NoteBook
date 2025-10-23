@@ -1,4 +1,4 @@
-# [GLPI](https://glpi-project.org/) - Gestionnaire Libre de Parc Informatique
+# GLPI - Gestionnaire Libre de Parc Informatique
 <br>
 
 - Solution de ticketing
