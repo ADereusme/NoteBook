@@ -21,6 +21,7 @@ export default defineConfig({
     
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'TSSR', link: '/tssr/tssr' },
       { text: 'Systèmes', link: '/systemes/systemes' },
       { text: 'Infra', link: '/infrastructure/infrastructure' },
       { text: 'Outils', link: '/outils/outils' },
@@ -30,6 +31,12 @@ export default defineConfig({
     ],
 
     sidebar: [
+      {
+        text: 'TSSR',
+        items: [
+          { text: 'Home', link: '/tssr/tssr' },
+        ]
+      },
       {
         text: 'Systèmes',
         items: [
